@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>这是我的一个share演示以及获取地理坐标demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        html,body{
+            height:100%;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+        .container{
+            /*height:2900px;*/
+            width:100%;
+            background-color:#335200;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="tel:15000000000">15000000000</a>
+    </div>
+    <p>点击这个按钮，获得您的位置：</p>
+    <button onclick="getLocation()">试一下</button>
+    <div id="demo"></div>
+
+    <script>
+        var x=document.getElementById("demo");
+        function getLocation()
+        {
+            //////判断设备是否支持获取坐标信息
+            if (navigator.geolocation)
+            {
+                navigator.geolocation.getCurrentPosition(showPosition,showError);
+            }
+            else{
+                x.innerHTML="Geolocation is not supported by this browser.";
+            }
+        }
+        function showPosition(position)
+        {
+            x.innerHTML="Latitude: " + position.coords.latitude +
+                    "<br />Longitude: " + position.coords.longitude;
+        }
+        function showError(err)
+        {
+            console.log(err);
+        }
+    </script>
+    <!-- JiaThis Button BEGIN -->
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;btn=r5.gif" charset="utf-8"></script>
+    <!-- JiaThis Button END -->
+    <script>
+
+    </script>
+</body>
+</html>
