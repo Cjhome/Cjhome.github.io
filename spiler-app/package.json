@@ -1,0 +1,14 @@
+{
+  "name": "spiler-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "express": "~4.13.4",
+     "mongoose": "^4.5.7",
+     "crawler": "^0.4.3"
+  }
+}
