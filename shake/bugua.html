@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>中国长牛，给自己的股运占一卦！</title>
+   <style>
+   @keyframes play {
+	100%{
+		background-position: -737px -2px;
+	}
+}
+@-webkit-keyframes play {
+	100%{
+		background-position: -737px -2px;
+	}
+}
+.sprite {
+	width:145px;
+	height:300px;
+	display:inline-block;
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-image:url("/images/bugua/234.png");
+	background-position: -2px -2px;
+	animation: play 0.8s steps(5) infinite;
+	-webkit-animation: play 0.8s steps(5) infinite;
+}
+.preload {
+	background-position: 9999px 9999px;
+	width: 1px;
+	height: 1px;
+	display: none;
+}
+
+body {
+	background: url("images/bugua/bg.jpg") no-repeat #E8DFD0;
+	background-size: cover;
+}
+html, body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.do {
+	background: url("images/bugua/button.gif") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 30%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 15%;
+	text-align: center;
+	color: #666;
+	line-height: 180px;
+	cursor: pointer;
+}
+
+.cover {
+	/*background: url("images/bugua/share.png") top right no-repeat;*/
+	background-size: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.decode .inner {
+	width: 100%;
+	height: 100%;
+	background: url("images/bugua/decode.png") center no-repeat;
+	background-size: 80%;
+}
+
+.item {
+	width: 100%;
+	text-align: center;
+	padding-top: 20%;
+}
+   </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<div style="display:none">
+		<img src="images/bugua/thumbnail.gif">
+		<p>牛市啊，好长好长，股市中的你需要占一卦…………………………</p>
+	</div>
+    <div class="do"></div>
+    <div class="cover result">
+        <div class="item">
+            <div class="sprite a1"></div>
+        </div>
+    </div>
+    <div class="cover decode">
+        <div class="inner"></div>
+    </div>
+	<div style="display:none;"> <audio id="media" src="js/voice.mp3" controls=""></audio></div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/shake.js"></script>
+    <script src="js/bugua.js"></script>
+ <div id="ad" style="position: fixed;bottom: 0;width: 100%">
+	<div id="ad0" class="hide"><a href="http://finance.sina.cn/2015-06-08/detail-icrvvsuv8899853.d.html?from=wap" target="_blank"><img style="width: 100%;display: block;" src="/images/bugua/bottom.gif" alt="bottom"></a></div>
+	 
+</div>   
+<div style="display:none">
+<script src="http://s95.cnzz.com/z_stat.php?id=1255380157&web_id=1255380157" language="JavaScript"></script>
+</div><!--站长统计-->
+</body>
+</html>
