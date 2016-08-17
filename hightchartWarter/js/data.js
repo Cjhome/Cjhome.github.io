@@ -5,7 +5,7 @@ $(function () {
 function ajaxPlise(){
      $.ajax({
        type:'get',
-       url:'http://apis.baidu.com/apistore/weatherservice/recentweathers',
+       url:'https://apis.baidu.com/apistore/weatherservice/recentweathers',
        dataType:'json',
        headers:{
            'apikey':'fa13c2cc783ee346e2e08c414d2d99d6'
