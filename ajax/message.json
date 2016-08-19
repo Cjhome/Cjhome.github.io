@@ -1,0 +1,38 @@
+{
+  "about_info":[
+    "2012年毕业于厦门华天涉外学院",
+    "发现规律有助于快速处理时刻接收的感官信息。即使本无规律，人眼和大脑也会尝试去创造规律。",
+    "熟悉AngularJS VueJs backbone node.js webPack Grunt",
+    "阅读框架源码等于站在大神的肩膀上看“世界”"
+  ],
+  "skill_info":"前端的学习需要持之以恒，知识深度与广度都很重要。而前端开发的重中之重就是原生javascript的理解",
+  "nodejs":[
+    "熟练使用nodejs",
+    "熟练使用nodejs编写服务器端"
+  ],
+  "html":[
+    "深刻理解Web标准",
+    "熟练运用html标签",
+    "精通html5如canvas、article、figcaption等标签元素"
+  ],
+  "css":[
+    "精通运用css及css3新属性",
+    "注重浏览器兼容性，熟悉常见的css hack（兼容至IE8）",
+    "掌握bootstrap框架及源码的实现",
+    "掌握css预编译器Less及Sass",
+    "熟悉jQueryUi等Ui框架"
+  ],
+  "javaScript":[
+    "掌握jQuery",
+    "掌握原生JS的编程",
+    "注重JavaScript性能优化",
+    "正在学习ES6",
+    "熟悉angularjs bankbone等mvc开发模式"
+  ],
+  "exp_info":"2014年工作期间，接触web前端，对前端的各种实现方式拥有浓厚的兴趣，然后自己在网上查找各种前端视屏和书籍，自学前端。",
+  "contact_info":[
+    "学习是一个充实愉悦的过程",
+    "行路有良友，便是捷径",
+    "带上我吧，一起看到更大的世界"
+  ]
+}
