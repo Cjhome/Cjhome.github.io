@@ -139,6 +139,7 @@ aside b {
 	width: 100px;
 	padding-right: 5px;
 	text-align: right;
+	
 }
 /* common style of page */
 #home,
@@ -997,8 +998,8 @@ img#home_photo2 {
 	display: none;
 }
 footer {
-	position: absolute;
-	bottom: 100px;
+	/*position: absolute;
+	bottom: 100px;*/
 	padding-top: 10px;
 	width: 100%;
 	/*border: #ccc 2px solid;*/
