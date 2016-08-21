@@ -59,41 +59,7 @@ h2 {
 	margin-top: 60px;
 }
 }
-/* header */
 
-
-/*#logo {
-	float: left;
-	margin: 5px 30px;
-}
-header img {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
-	-webkit-transition: box-shadow 0.5s;
-	transition: box-shadow 0.5s;
-}
-header img:hover {
-	box-shadow: 0 0 15px #1FAEFF;
-}
-#header_img,
-#header_p {
-	float: left;
-}
-#header_p {
-	margin-left: 15px;
-	text-align: center;
-	color: #000;
-}
-#header_p1 {
-	margin: 0px 15px 5px;
-	padding: 5px 15px;
-	width: 50px;
-	border-bottom: 1px solid #333;
-}
-#header_p2 {
-	padding: 0 15px;
-}*/
 nav {
 	margin-top: 30px;
 	margin-right: 60px;
@@ -132,7 +98,7 @@ nav li a:hover:after {
 }
 @media screen and (max-width:1366px){
 #header {
-	height: 60px;
+	/*height: 60px;*/
 }
 #logo {
 	margin: 0 30px;
