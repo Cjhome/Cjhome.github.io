@@ -6,9 +6,9 @@
     "阅读框架源码等于站在大神的肩膀上看“世界”"
   ],
   "skill_info":"前端的学习需要持之以恒，知识深度与广度都很重要。而前端开发的重中之重就是原生javascript的理解",
-  "nodejs":[
-    "熟练使用nodejs",
-    "熟练使用nodejs编写服务器端"
+  "angularjs":[
+    "熟练使用angularjs",
+    "了解angular的双向数据绑定，angular的指令，http，router等相关的知识"
   ],
   "html":[
     "深刻理解Web标准",
@@ -29,7 +29,12 @@
     "正在学习ES6",
     "熟悉angularjs bankbone等mvc开发模式"
   ],
-  "exp_info":"2014年工作期间，接触web前端，对前端的各种实现方式拥有浓厚的兴趣，然后自己在网上查找各种前端视屏和书籍，自学前端。",
+  "react":[
+    "掌握react基本写法",
+    "掌握react-native的开发app过程",
+    "了解react结合redux或者mobox开发相应的项目"
+  ],
+  "exp_info":"工作期间，接触web前端，对前端的各种实现方式拥有浓厚的兴趣，然后自己在网上查找各种前端视屏和书籍，自学前端。",
   "contact_info":[
     "学习是一个充实愉悦的过程",
     "行路有良友，便是捷径",

@@ -9,7 +9,7 @@ $(function(){
 			});
 			$("#skill_info").append("<p>"+data.skill_info+"</p>");
 			$(".skill_int").append("<ul></ul>");
-			data.nodejs.forEach(function(item){
+			data.angularjs.forEach(function(item){
 				$("#skill_int1 ul").append("<li>"+item+"</li>");
 			});
 			data.html.forEach(function(item){
@@ -21,6 +21,12 @@ $(function(){
 			data.javaScript.forEach(function(item){
 				$("#skill_int4 ul").append("<li>"+item+"</li>");
 			});
+            data.react.forEach(function(item){
+                $("#skill_int5 ul").append("<li>"+item+"</li>");
+            });
+            data.javaScript.forEach(function(item){
+                $("#skill_int6 ul").append("<li>"+item+"</li>");
+            });
 			$("#exp_info").append("<p>"+data.exp_info+"</p>");
 			data.contact_info.forEach(function(item){
 				$("#contact_info ul").append("<li>"+item+"</li>");
